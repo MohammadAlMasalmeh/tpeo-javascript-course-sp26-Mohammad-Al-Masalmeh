@@ -2,6 +2,7 @@
 
 # Finding Homework/Class Resources
 To see our class recordings and slides, refer to our notion here: https://www.notion.so/texas-product-engineering-organization/Introductory-JavaScript-2026-204af3f6e92a8174b8d8d3328fd59e0b 
+
 Refer to class slides for homework guidelines. 
 Comments on demo/practice/hw files will often detail the programming tasks. 
 
