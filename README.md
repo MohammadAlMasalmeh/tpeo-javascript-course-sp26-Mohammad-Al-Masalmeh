@@ -19,7 +19,7 @@ Navigate to a directory where you'd like to keep all your projects. If you haven
     ```
 3. We need to set the **forked** repo's upstream url, allowing you to pull changes from the **main**, perform
     ```
-    git remote add upstream https://github.com/meli-huang/tpeo-javascript-course-sp25.git
+    git remote add upstream https://github.com/ashwikakatiyar/tpeo-javascript-course-sp26.git
     ```
 4. Verify that the forked repo has the following remote properties by performing ```git remote -v```
     ```
