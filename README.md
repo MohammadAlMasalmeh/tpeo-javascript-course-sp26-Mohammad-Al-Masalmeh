@@ -34,6 +34,7 @@ Navigate to a directory where you'd like to keep all your projects. If you haven
 1. Add files 
     ``` 
     git add <files> 
+    git add . (use this most the time)
     ``` 
 2. Commit changes
     ```
