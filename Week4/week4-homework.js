@@ -5,7 +5,6 @@ powers of three and also print out “This is my favorite power of three!” whe
 power of three prints. Use a timeout to call this function after waiting 3 seconds.
 */
 
-
 /*
 Question 2: Write a function named everyTenSeconds that prints out “Hello World!” to the terminal 
 every 10 seconds for a total of 2 minutes. Feel free to create any helper functions you need to 
