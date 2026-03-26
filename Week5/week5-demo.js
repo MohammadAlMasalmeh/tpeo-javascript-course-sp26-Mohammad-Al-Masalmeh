@@ -3,16 +3,22 @@
 Let's create a constructor for a Student, which takes in their first name, 
 last name, university, major, and graduation year. 
 */ 
-function Student(firstName, lastName, university, major, gradYear){
+
+function Student(firstName, lastName, university, major, graduationYear) {
     this.firstName = firstName;
-    this.lastName = lastName;
+    this.lastName = lastName; 
     this.university = university;
     this.major = major;
-    this.gradYear = gradYear;
+    this.graduationYear = graduationYear; 
+    this.hasGraduated = graduationYear <= 2024; 
 }
 
-let Joyce = new Student("Joyce", "Zou", "UT Austin", "CS + Neuro", "2029");
+var sarah = new Student("Sarah", "Ding", "UT Austin", "Informatics", 2027);
+var vincent = new Student("Vincent", "Do", "UT Austin", "Computer science", 2025);
 
+console.log(sarah.major);
+console.log(vincent["hasGraduated"]);
+console.log(`${vincent.firstName} ${vincent.lastName} is studying ${vincent["major"]} until ${vincent.graduationYear}.`);
 
 
 /*
@@ -20,14 +26,11 @@ Now, create a constructor for a Course, which will take in a student taking the 
 the class name, and the class location. 
 */ 
 
-function Course(student, className, classLocation){
+function Course(student, name, location) {
     this.student = student;
-    this.className = className;
-    this.classLocation = classLocation;
+    this.name = name;
+    this.location = location;
 }
 
-let Keondre = new Student("Keondre", "Reese", "UT Austin", "Informatics", "2028");
-let keondreCourse = new Course(Keondre, "TPEO Javascript", "GDC");
-
-console.log(keondreCourse);
-console.log(keondreCourse.student.university);
+var introToJS = new Course(vincent, "Intro to Javascript", "GDC 2.210");
+console.log(introToJS.student.graduationYear);
